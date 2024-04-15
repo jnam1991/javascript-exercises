@@ -1,5 +1,5 @@
 const HelloWorld = function() {
-  return "Hello World!"
+  return "Hello, World!"
 };
   
 // Do not edit below this line
