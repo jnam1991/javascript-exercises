@@ -1,15 +1,8 @@
-const HelloWorld = require('./HelloWorld');
+const helloWorld = require('./HelloWorld');
 
-describe('HelloWorld', () => {
-  test('First test description', () => {
-    // Replace this comment with any other necessary code, and update the expect line as necessary
-
-    expect(HelloWorld()).toBe('');
-  });
-  
-  test.skip('Second test description', () => {
-    // Replace this comment with any other necessary code, and update the expect line as necessary
-
-    expect(HelloWorld()).toBe('');
+describe('Hello World', function() {
+  test('says "Hello, World!"', function() {
+    expect(HelloWorld()).toEqual('Hello, World!');
   });
 });
+
